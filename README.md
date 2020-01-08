@@ -32,7 +32,9 @@ Transform the count matrix to a normalized tf (term-frequency) or tf-idf (term-f
 TFIDF=TF(t,d)∗(log1+n1+df(d,t)+1)
 
 TF(t, d) is the number of times term t occurs in document d
+
 df(d, t) is the number of documents containing term t
+
 n is the number of documents
 
 
