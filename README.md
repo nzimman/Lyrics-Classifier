@@ -18,11 +18,23 @@ For extracting the data, the follwoing libraries are used:
 - *Pandas* library is also used for saving the data in csv format
 
 ### Text cleaning
-The goal is to remove from the text punctuation, stop words (most common words in a langiage) and pronouns.For this, use the spyCy library (the model *en_core_web_md*) to break the text into tokens, see the part of the speech of each token and find the root of each word (lemmatization) to clean the text.  
+The goal is to remove from the text punctuation, stop words (most common words in a language) and pronouns. For this, use the spyCy library (the model *en_core_web_md*) to break the text into tokens, see the part of the speech of each token and find the root of each word (lemmatization) to clean the text.  
 
 ### Vectorize
+Convert the clean text into a (sparse) matrix of token counts.
+
+Library needed: *sklearn*
+
 
 ### Transform
+Transform the count matrix to a normalized tf (term-frequency) or tf-idf (term-frequency times inverse document-frequency) representation. Instead of the raw frequencies of occurrence of a token, the goal is to adjust for words that are generally more frequent.
+
+TFIDF=TF(t,d)∗(log1+n1+df(d,t)+1)
+
+TF(t, d) is the number of times term t occurs in document d
+df(d, t) is the number of documents containing term t
+n is the number of documents
+
 
 ### 
 
