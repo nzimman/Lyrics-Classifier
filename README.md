@@ -1,4 +1,4 @@
-# Lyrics Classifier
+# Lyrics Classifier (Natural Language Processing project)
 
 ## Synopsis
 Project based on a text classification model to predict an artist from a piece of text.
@@ -18,7 +18,7 @@ For extracting the data, the follwoing libraries are used:
 - *Pandas* library is also used for saving the data in csv format
 
 ### Text cleaning
-The goal is to remove from the text punctuation, stop words and pronouns.For this, use the spyCy library (the model *en_core_web_md*) to break the text into tokens, see the part of the speech of each token and find the root of each word (lemmatization) to clean the text.  
+The goal is to remove from the text punctuation, stop words (most common words in a langiage) and pronouns.For this, use the spyCy library (the model *en_core_web_md*) to break the text into tokens, see the part of the speech of each token and find the root of each word (lemmatization) to clean the text.  
 
 ### Vectorize
 
