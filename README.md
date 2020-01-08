@@ -18,7 +18,7 @@ For extracting the data, the follwoing libraries are used:
 - *Pandas* library is also used for saving the data in csv format
 
 ### Text cleaning
-
+The goal is to remove from the text punctuation, stop words and pronouns.For this, use the spyCy library (the model *en_core_web_md*) to break the text into tokens, see the part of the speech of each token and find the root of each word (lemmatization) to clean the text.  
 
 ### Vectorize
 
