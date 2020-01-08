@@ -38,7 +38,18 @@ df(d, t) is the number of documents containing term t
 n is the number of documents
 
 
-### 
+### Naive Bayes classifier
+This model calculates the conditional probability based on observations. 
+
+Naive Bayes methods are based on applying Bayes’ theorem with the “naive” assumption of conditional independence between every pair of features given the value of the class variable. Bayes’ theorem states the following, given class variable y and dependent feature vector x1,...xn
+
+P(y|x1,...xn) = P(x1,...xn|y) P(y) / P(x1,...xn)
+
+P(y) is a prior, which is the the assumed probability of an event before taking any data into account.
+
+P(x1,...xn) is called the marginal probability. In a classifier, we can usually ignore the latter, because we only need to know the ratio between the classes.
+
+
 
 ## Implementation
 The file lyrics_classifier.py contains all the code and the list of artists can be input using the command line. The code expects a folder called *Songs* in the same folder where the .py file is. All the data extracted from the HTML pages is saved in csv format in this folder.  
