@@ -47,7 +47,7 @@ Library used: *sklearn*
 
 
 ## Implementation
-The file lyrics_classifier.py contains all the code and the list of artists can be input using the command line. A folder called *Songs* is needed and must be in the same folder where the .py file is. All the data extracted from the HTML pages is saved in csv format in this folder.  
+The file lyrics_classifier.py contains all the code and the list of artists can be input using the command line. A folder called *Songs* is needed and must be in the same folder where the lyrics_classifier.py file is. All the data extracted from the HTML pages is saved in csv format in this folder.  
 
 There is a class *Artist* and additional functions defined.
 
